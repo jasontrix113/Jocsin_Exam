@@ -54,7 +54,7 @@
                     <td><?php echo $val['pages']?></td>
                     <td><?php echo $val['author']?></td>
                     <td><?php echo $val['year']?></td>
-                    <td><input type="button" name="edit" value="Edit">    
+                    <td><input type="button" id="edit" name="edit" value="Edit">    
                 </tr>
                 <?php endwhile ?>            
             </tbody>
